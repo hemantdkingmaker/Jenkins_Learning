@@ -24,12 +24,11 @@ pipeline{
                               }
                             }
                stage('Integration test'){
-                        agent {
-                            docker {
-                                    image 'ubuntu'
-                                   }
-                               }
+                        steps{
+                                echo 'Running integartion test'
                              }
+                             }
+                  
                 }
                }
             }
