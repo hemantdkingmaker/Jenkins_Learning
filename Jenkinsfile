@@ -1,5 +1,6 @@
 pipeline{
   agent any
+    stages {
     stage('One'){
       steps{
              echo 'Hi, this is Hemant Kumar Yaranagula'
@@ -33,3 +34,4 @@ pipeline{
                 }
                }
             }
+}
